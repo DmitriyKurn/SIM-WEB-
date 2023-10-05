@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(151, 106, 234);
+}
+
+h1 {
+    color: rgb(0, 255, 13);
+    font-family: 'Teddy Bear', 'sans-serif';
+}
+
+h2 {
+    color: yellow;
+}
+
+a {
+    color: rgba(0, 6, 128, 0.942);
+}
+a:hover{
+    color: red;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    border: 5px solid grey;
+    border-radius: 20px;
+}
+
+.paragraph {
+    font-size: 1.5rem;
+}
+ul{
+    list-style-type: square;
+}
+@font-face {
+	font-family: 'Teddy Bear';
+	src: url('fonts/teddy_bear.eot'); 
+	src: url('fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), 
+		url('fonts/teddy_bear.woff2') format('woff2'), 
+		url('fonts/teddy_bear.woff') format('woff'), 
+		url('fonts/teddy_bear.ttf') format('truetype'), 
+		url('fonts/teddy_bear.svg#teddy_bear') format('svg'); 
+}
